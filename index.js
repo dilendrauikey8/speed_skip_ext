@@ -18,6 +18,6 @@ function changeSpeed(videoList, delta){
 	        for (const button of document.getElementsByClassName("ytp-ad-skip-button")) {
 			    button.click(); // "Skip Ad" or "Skip Ads" buttons
 			}
-            //jfpn iwewne skldfndnf
+           
         }
     });
