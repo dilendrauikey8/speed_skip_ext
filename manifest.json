@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Video Speed and Skip Ads",
+  "description": "Control speed video speed on any site with keyboard shortcut keys 'Z' and 'X'. Skip youtube ads with 'S'.",
+  "version": "1.0",
+  "icons": { "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["youtube.css"],
+      "js": ["index.js"]
+    }
+  ]
+}
